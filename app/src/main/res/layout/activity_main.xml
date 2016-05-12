@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="200dp">
+
+    <com.example.customview01.view.CustomTitleView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        custom:titleText="1234"
+        custom:titleTextColor="#ff0000"
+        custom:titleTextSize="40sp" />
+
+</RelativeLayout>
